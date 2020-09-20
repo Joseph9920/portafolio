@@ -1,0 +1,223 @@
+body{
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 10px rgba(8, 10, 107, 1.00)!important;
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+header .header-area{
+	background-color: #01087c;
+	
+}
+header .img-fluid{
+	padding: -10px;
+	margin-right: 35px;
+	height: 80px;
+}
+.header-area{
+	background-color: #01087c !important;
+}
+#slides{
+	background-position: center;
+	text-align: center;
+}
+#slides h2{
+	font-size: 90px;
+	font-weight: bold;
+	margin: 100px;
+	margin-left: 800px;
+	margin-right: 600px;
+}
+#slides h3{
+	padding-right: -600%;
+	padding-left: 600px;
+	margin: -70px;
+	margin-left: 55px 0;
+	margin-right: 0px 62;
+}
+#servicios{
+	padding: 90px;
+	text-align: center;
+	background-color: #505AFC;
+	color: #fff;
+}
+#servicios h2{
+	padding: 25px;
+	font-weight: bold;
+	font-size: 50px;
+}
+#servicios h4{
+	font-weight: bold;
+}
+.fa-video{
+	color: #fff;
+}
+
+.producto{
+	position: relative;
+	overflow: hidden;
+}
+
+.producto-nombre{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #fff;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: #4859fc;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.producto:hover .producto-nombre{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+.producto:hover img{
+	transform: scale(1.4);
+	transition: all 1s ease-in-out;
+}
+.producto-watch{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+	
+}
+.producto-bg{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	top: 0;
+	z-index: 0;
+}
+.producto-nombre.bg-azul{
+	background-color: rgba(72,89,252,0.75);
+	
+}
+
+#productos{
+	background-color: #01087c;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+#productos h2{
+	text-align: center;
+	padding: 55px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 50px;
+}
+
+#datos{
+	text-align: justify;
+	background-color: #3423C8;
+	color: #fff;
+	padding: 80px;
+}
+
+#datos h2{
+	padding: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+#servicios i{
+	padding: 15px;
+	font-size: 35px;
+	color: #F3F10C;
+}
+#datos{
+	text-align: center;
+	font-size: 18px;
+}
+#datos i{
+	padding: 15px;
+	font-size: 65px;
+	color: #F3F10C;
+}
+
+#contact-form{
+	background-image: url("../img/carousel 1.jpg");
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+#contact-form h2{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 30px;
+	color: #fff;
+}
+#contact-form input,
+#contact-form textare{
+	background-color: #eee;
+	border-radius: 0;
+	padding: 25px 10px;
+}
+
+#contact-form select{
+	background-color: #eee;
+	border-radius: 0;
+	
+}
+#contact-form label{
+	color: #fff;
+}
+.btn-azul{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 600;
+	background-color: #01087c;
+	border: 0px;
+	color: #fff;
+}
+
+footer{
+	padding-top: 5%;
+	background-color: #505AFC;
+	color: #fff;
+}
+
+footer #info h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+footer #copy{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 40px 0;
+}
+
+footer #info a{
+	color: #fff;
+}
+#info i{
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+
